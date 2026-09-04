@@ -5,6 +5,9 @@ import { useApp } from '../context/AppContext'
 import { supabase } from '../lib/supabaseClient'
 import { validateClaimForm } from '../lib/validation'
 
+
+
+
 const emptyFilters = { search: '', category: '', location: '', date: '' }
 
 const CLAIM_STATUS_STYLES = {
