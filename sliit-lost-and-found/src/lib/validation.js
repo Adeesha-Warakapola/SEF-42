@@ -45,6 +45,9 @@ export function validateItemForm(values, type) {
   return { valid: Object.keys(errors).length === 0, errors }
 }
 
+
+
+
 export function validateClaimForm(values) {
   const errors = {}
 
